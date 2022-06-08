@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<title>Profile</title>
+</head>
+<body>
+<header class="d-block sticky-top bg-warning container-fluid" style="z-index: 2;">
+	<div class="container" style="max-width: 1420px;">
+		<nav class="navbar navbar-expand-lg justify-content-between">
+			<div class="d-flex align-items-center">
+				<a href="main.htm" class="nav-brand m-0" ><img src="../img/logo.png" style="height: 40px;"></a>
+				<a href="main.htm" class="navbar-brand text-uppercase fs-3 fw-bold p-0" style="color: blueviolet;">discverio</a>
+			</div>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+      			<span class="navbar-toggler-icon"></span>
+    		</button>
+            <div class="collapse navbar-collapse" id="navbarToggle">
+				<ul class="navbar-nav table-hover fw-bold" style="margin-left: auto;">
+					<li style="padding-left: 35px"><a href="signup.htm" class="nav-link btn">Sign up</a></li>
+					<li style="padding-left: 35px"><a href="login.htm" class="nav-link btn">Login</a></li>
+					<li style="padding-left: 35px"><a href="about.htm" class="nav-link btn">About us</a></li>
+					<li style="padding-left: 35px"><a href="" class="nav-link btn dropdown-toggle disabled" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Knowledge<img src="../svg/lock-fill.svg" height="18"></a>
+						<ul class="dropdown-menu bg-warning " style="left: initial" aria-labelledby="navbarDropdown">
+							<li><a href="#" class="dropdown-item">Proficient (C2)</a></li>
+							<li><a href="#" class="dropdown-item">Advanced (C1)</a></li>
+							<li><a href="#" class="dropdown-item">Upper-Intermediate (B2)</a></li>
+							<li><a href="#" class="dropdown-item">Intermediate (B1)</a></li>
+							<li><a href="#" class="dropdown-item">Elementary (A2)</a></li>
+							<li><a href="#" class="dropdown-item">Beginner (A1)</a></li>
+						</ul>
+					</li>
+					<li style="padding-left: 35px"><a href="profile.htm" class="nav-link btn">Profile</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div> <!--container-->
+</header>
+<main style="height: 89vh;">
+	<div class="container d-flex justify-content-center">
+		<div class="mt-2">
+			<img src="../img/profile.png" style="max-height: 180px;">
+		</div>
+		<table class="table mt-3 position-absolute table-bordered border border-5 border-danger" style="top: 35%; max-width: 450px;">
+            <thead class="border-danger">
+                <tr>
+                    <th style="width: 30%" scope="col" class="bg-warning col-3 p-3">ID</th>
+                    <th scope="col" class="p-3">#0001</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="col" class="bg-warning p-3">Full name</th>
+                    <td class="p-3">Bogdan Nezhyvyi</td>
+                </tr>
+                <tr>
+                    <th scope="col" class="bg-warning p-3">Age</th>
+                    <td class="p-3">20</td>
+                </tr>
+                <tr>
+                    <th scope="col" class="bg-warning p-3">Email</th>
+                    <td class="p-3">bnezhivoy@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="col" class="bg-warning p-3">Sex</th>
+                    <td class="p-3">Male</td>
+                </tr>
+                <tr>
+                    <th scope="col" class="bg-warning p-3">Birth date</th>
+                    <td class="p-3">10.09.2001</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> <!--container-->
+</main>
+<footer class="bg-dark text-white-50 d-flex align-items-center" style="height: 49px;">
+	<div class="container-fluid d-flex justify-content-center">
+		<p class="m-0">© 2001 - 2022 <a href="#" class="link-secondary">Discverio</a>. All rights reserved.</p> 
+	</div>
+</footer>
+</body>
+</html>
