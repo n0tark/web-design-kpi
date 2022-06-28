@@ -1,0 +1,39 @@
+{
+  "profile": [
+    {
+      "fullName": "Mike",
+      "password": "12345678",
+      "email": "MikeTromb@gmail.com",
+      "date": "2002-06-18",
+      "sex": "male"
+    },
+    {
+      "fullName": "Tom",
+      "password": "qwer",
+      "email": "TomHandle@gmail.com",
+      "date": "2003-03-12",
+      "sex": "female"
+    },
+    {
+      "fullName": "Gleb",
+      "password": "bylka",
+      "email": "bylkaGleb@gmail.com",
+      "date": "1999-01-01",
+      "sex": "male"
+    },
+    {
+      "fullName": "Vlad",
+      "password": "qwerty",
+      "email": "VladSel@gmail.com",
+      "date": "2000-08-06",
+      "sex": "male"
+    },
+    {
+      "fullName": "Vla",
+      "password": "1111",
+      "email": "a@a",
+      "date": "12321-03-12",
+      "sex": "female"
+    }
+  ]
+}
